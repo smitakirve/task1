@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light background color for the calculator */
+}
+
+.container1 {
+    width: 80%;
+    max-width: 600px; /* Limit the width for larger screens */
+    margin: auto;
+    padding: 20px;
+    text-align: center; /* Center align text */
+}
+
+h1 {
+    color: #00796b; /* Attractive color for the main heading */
+    font-size: 2.5em; /* Increased font size */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+label {
+    font-size: 1.2em; /* Larger font for labels */
+}
+
+input[type="number"] {
+    width: 100%; /* Full width for input */
+    padding: 10px; /* Padding for input */
+    margin: 10px 0; /* Space around input */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 5px; /* Rounded corners for input */
+}
+
+button {
+    background-color: #00796b; /* Button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #004d40; /* Darker shade on hover */
+}
+
+#result {
+    margin-top: 20px; /* Space above result */
+    font-size: 1.5em; /* Larger font for result */
+    color: #d32f2f; /* Color for result text */
+}
+
+image:hover{
+    zoom: 1;
+}
+
+.container{
+    width: 80%;
+    max-width: 600px; /* Limit the width for larger screens */
+    margin: auto;
+    padding: 20px;   
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Smaller font size for mobile */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Smaller font size for mobile */
+    }
+
+    button {
+        width: 100%; /* Full width for buttons on mobile */
+    }
+}
